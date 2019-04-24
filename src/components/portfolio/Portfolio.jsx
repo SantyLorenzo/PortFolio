@@ -10,6 +10,7 @@ const Container = styled.section`
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   overflow: scroll;
   overflow-x: hidden;
 `
