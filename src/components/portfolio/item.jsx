@@ -7,7 +7,7 @@ const ItemContainer = styled.div`
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 30px;
+  margin: 30px 20px;
   animation-delay: .3s;
   animation-duration: 4s;
   border-radius: 3px;

@@ -8,7 +8,7 @@ const ButtonsContainer = styled.div`
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 `
 const Button = styled(Link)`
   padding: 12px 25px;
@@ -35,13 +35,6 @@ const Buttons = () => (
       to="/Contact"
     >
       Hire Me
-    </Button>
-    <Button
-      className="animated fadeIn"
-      background='rgba(255, 255, 255, .04)'
-      color='rgba(255, 255, 255, .7)'
-    >
-      Know More
     </Button>
   </ButtonsContainer>
 )
