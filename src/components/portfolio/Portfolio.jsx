@@ -14,7 +14,7 @@ const Container = styled.section`
   overflow: scroll;
   overflow-x: hidden;
 `
-const Title = styled.span`
+const Section = styled.span`
   width: 145px;
   border-bottom: 2px solid #d54090;
   font-family: 'Montserrat', sans-serif;
@@ -22,6 +22,10 @@ const Title = styled.span`
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 53px;
+    
+  @media (max-width: 980px) {
+    display: none;
+  }
 `
 const ProjectsContainer = styled.div`
   width: 90%;
@@ -75,7 +79,7 @@ const Projects = [
 ]
 const Portfolio = () => (
   <Container>
-    <Title className="animated fadeInDown">Portfolio</Title>
+    <Section className="animated fadeInDown">Portfolio</Section>
     <ProjectsContainer>
       {Projects.map(
         (Projects, i) =>

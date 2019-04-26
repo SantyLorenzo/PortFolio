@@ -3,12 +3,16 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   width: 600px;
-  height: 120px;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 64px;
   align-self: center;
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+  }
 `
 const Icon = styled.a`
   width: 80px;
@@ -36,10 +40,10 @@ const Icons = () => (
       <i className="fab fa-whatsapp fa-3x" />
     </Icon>
     <Icon className='animated fadeIn' href='https://www.linkedin.com/in/santiago-lorenzo/'>
-      <i class="fab fa-linkedin-in fa-3x" />
+      <i className="fab fa-linkedin-in fa-3x" />
     </Icon>
     <Icon className='animated fadeIn' href='https://www.facebook.com/santiago.lorenzo.31'>
-      <i class="fab fa-facebook-messenger fa-3x" />
+      <i className="fab fa-facebook-messenger fa-3x" />
     </Icon>
   </Container >
 )

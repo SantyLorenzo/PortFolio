@@ -6,9 +6,15 @@ const SkillsContainer = styled.div`
   height: 80px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: flex-end;
   animation-delay: 1s;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
 `
+
 const IconsContainer = styled.div`
   height: 30px;
   width: 600px;

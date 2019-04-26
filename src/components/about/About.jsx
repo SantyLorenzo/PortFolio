@@ -18,13 +18,17 @@ const Container = styled.section`
     padding: 64px 8px 0 8px;
   }
 `
-const Title = styled.span`
-  height: 10%;
+const Section = styled.span`
+  height: 40px;
   border-bottom: 2px solid #d54090;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 1px;
   width: 105px;
+  
+  @media (max-width: 980px) {
+    display: none;
+  }
 `
 const Name = styled.h1`
   height: 15%;
@@ -34,6 +38,13 @@ const Name = styled.h1`
   animation-delay: .3s;
   animation-duration: 3s;
   text-align: center;
+
+  @media (max-width: 580px) {
+    font-size: 50px;
+  }
+  @media (max-width: 450px) {
+    font-size: 30px;
+  }
 `
 const Subtitle = styled.span`
   height: 5%;
@@ -42,6 +53,13 @@ const Subtitle = styled.span`
   font-weight: 500;
   animation-delay: .5s;
   text-align: center;
+
+  @media (max-width: 580px) {
+    font-size: 20px;
+  }
+  @media (max-width: 450px) {
+    font-size: 15px;
+  }
 `
 const Text = styled.p`
   margin: 30px 0;
@@ -52,6 +70,15 @@ const Text = styled.p`
   color: rgba(255, 255, 255, .35);
   animation-delay: .7s;
   text-align: center;
+
+  @media (max-width: 560px) {
+    font-size: 12px;
+    width: 50%;
+  }
+  @media (max-width: 350px) {
+    font-size: 10px;
+    width: 30%;
+  }
 `
 const Wrapper = styled.div`
   height: 70%;
@@ -67,7 +94,7 @@ const Wrapper = styled.div`
 
 const About = () => (
   <Container>
-    <Title className="animated fadeInDown">About</Title>
+    <Section className="animated fadeInDown">About</Section>
     <Name className="animated fadeIn">Santiago Lorenzo</Name>
     <Subtitle className="animated fadeIn">Frontend Web Developer</Subtitle>
     <Wrapper>

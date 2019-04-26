@@ -23,13 +23,13 @@ const Text = styled.span`
   font-weight: 300;
   letter-spacing: 1px;
 `
-const Media = () => (
+const Curriculum = () => (
   <Container>
     <Text>Download CV:</Text>
     <Link href={PDF} download>
-      <i class="fas fa-file-download fa-2x" />
+      <i className="fas fa-file-download fa-2x" />
     </Link>
   </Container>
 )
 
-export default Media
+export default Curriculum

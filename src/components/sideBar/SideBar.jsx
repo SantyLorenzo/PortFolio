@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Media from './media'
+import Curriculum from './curriculum'
 import Titles from './titles'
 import Perfil from './images/Imagen.png'
 
@@ -12,7 +12,9 @@ const Wrapper = styled.section`
   align-items: center;
   justify-content: space-evenly;
   background: rgb(26,20,46);
-  background: linear-gradient(0deg, rgba(26,20,46,1) 70%, rgba(0,0,0,1) 100%, rgba(31,26,26,1) 100%);  @media (max-width: 980px) {
+  background: linear-gradient(0deg, rgba(26,20,46,1) 70%, rgba(0,0,0,1) 100%, rgba(31,26,26,1) 100%);  
+  
+  @media (max-width: 980px) {
     display: none;
   }
 `
@@ -34,7 +36,7 @@ const SideBar = () => (
       <Image src={Perfil} alt='Perfil' />
     </ImageContainer>
     <Titles />
-    <Media />
+    <Curriculum />
   </Wrapper>
 )
 
