@@ -11,7 +11,10 @@ const Wrapper = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background: rgba(21,17,40, .95);
+  background: rgb(26,20,46);
+  background: linear-gradient(0deg, rgba(26,20,46,1) 70%, rgba(0,0,0,1) 100%, rgba(31,26,26,1) 100%);  @media (max-width: 980px) {
+    display: none;
+  }
 `
 const ImageContainer = styled.div`
   height: 200px;

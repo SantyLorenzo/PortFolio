@@ -32,14 +32,11 @@ const Icon = styled.a`
 
 const Icons = () => (
   <Container>
-    <Icon className='animated fadeIn' href='https://www.instagram.com/lorensantyloren/'>
-      <i class="fab fa-skype fa-3x" />
+    <Icon className='animated fadeIn' href=''>
+      <i className="fab fa-whatsapp fa-3x" />
     </Icon>
     <Icon className='animated fadeIn' href='https://www.linkedin.com/in/santiago-lorenzo/'>
       <i class="fab fa-linkedin-in fa-3x" />
-    </Icon>
-    <Icon className='animated fadeIn'>
-      <i className="fab fa-whatsapp fa-3x" />
     </Icon>
     <Icon className='animated fadeIn' href='https://www.facebook.com/santiago.lorenzo.31'>
       <i class="fab fa-facebook-messenger fa-3x" />

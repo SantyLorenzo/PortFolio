@@ -13,8 +13,13 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 1000px) {
+    padding: 64px 8px 0 8px;
+  }
 `
 const Title = styled.span`
+  height: 10%;
   border-bottom: 2px solid #d54090;
   font-size: 32px;
   font-weight: 300;
@@ -22,6 +27,7 @@ const Title = styled.span`
   width: 105px;
 `
 const Name = styled.h1`
+  height: 15%;
   font-size: 64px;
   font-weight: 300;
   margin-bottom: 20px;
@@ -30,6 +36,7 @@ const Name = styled.h1`
   text-align: center;
 `
 const Subtitle = styled.span`
+  height: 5%;
   font-size: 25px;
   color: #d54090;
   font-weight: 500;
@@ -44,13 +51,18 @@ const Text = styled.p`
   line-height: 2;
   color: rgba(255, 255, 255, .35);
   animation-delay: .7s;
+  text-align: center;
 `
 const Wrapper = styled.div`
-  height: 60%;
+  height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-evenly;
+
+  @media (min-height: 700px) {
+    justify-content: space-evenly;
+  }
 `
 
 const About = () => (

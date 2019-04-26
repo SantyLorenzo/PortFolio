@@ -27,7 +27,7 @@ const ProjectsContainer = styled.div`
   width: 90%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
 `
 const Projects = [
   {
@@ -49,7 +49,7 @@ const Projects = [
     image: 'https://i.imgur.com/6VP3RzM.png?3',
     description: 'Meet new people all around the world using Disse, a public chat.',
     linkToPage: 'https://dissie-app.firebaseapp.com/',
-    linkToGithub: ''
+    linkToGithub: 'https://github.com/SantyLorenzo/Dissie'
   },
   {
     title: 'Rick and Morty Images',
