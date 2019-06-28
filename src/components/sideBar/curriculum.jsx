@@ -26,7 +26,7 @@ const Text = styled.span`
 const Curriculum = () => (
   <Container>
     <Text>Download CV:</Text>
-    <Link href={PDF} download>
+    <Link href={'https://drive.google.com/file/d/1ZJG5UONBsoA3bU7f7tvnJ6RTuwXcm-up/view} download>
       <i className="fas fa-file-download fa-2x" />
     </Link>
   </Container>
