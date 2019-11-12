@@ -5,12 +5,13 @@ const SkillsContainer = styled.div`
   width: 700px;
   height: 80px;
   display: flex;
+  margin: 20px 0;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
   animation-delay: 1s;
 
-  @media (max-width: 700px) {
+  @media (max-width: 710px) {
     display: none;
   }
 `
