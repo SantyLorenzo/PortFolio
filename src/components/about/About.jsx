@@ -81,15 +81,10 @@ const Text = styled.p`
   }
 `
 const Wrapper = styled.div`
-  height: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
-  @media (min-height: 700px) {
-    justify-content: space-evenly;
-  }
 `
 
 const About = () => (
