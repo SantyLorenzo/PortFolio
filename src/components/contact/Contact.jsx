@@ -65,6 +65,7 @@ const Phone = styled.h2`
 `
 const Mail = styled.h1`
   font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
   font-size: 50px;
   margin: 0;
   letter-spacing: 8px;
@@ -91,7 +92,7 @@ const Contact = () => (
     <Section className="animated fadeInDown">Contact</Section>
     <TextContainer>
       <Phone className='animated fadeIn'>+54 221 - 3642233</Phone>
-      <Mail className='animated fadeIn'>SANTYLORE4@GMAIL.COM</Mail>
+      <Mail className='animated fadeIn'>santylore4@gmail.com</Mail>
     </TextContainer>
     <Icons />
   </Container>
