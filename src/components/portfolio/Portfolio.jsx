@@ -11,8 +11,7 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll;
 `
 const Section = styled.span`
   width: 145px;
